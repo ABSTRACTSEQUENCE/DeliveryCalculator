@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <style>
+      div {
+        text-align: center;
+      }
+    </style>
+    <h1>Калькулятор Залупа</h1>
+    <div id="main">
+
+    <div id = 'tileContainer'></div>
+<div>
+  <button id="btSaveFormula">Сохранить как формулу</button>
+  <button id="btCalculate">Посчитать</button>
+</div>
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        "
+      >
+        <div class="block">
+          <h2>Формулы</h2>
+          <div id="formulaContainer"></div>
+        </div>
+
+        <div class="block">
+          <h2>Свойства</h2>
+          <div id="propertyContainer"></div>
+          <button id="btAddProperty">Добавить</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="result"></div>
+    </div>
+    <div id="leftPanel" class="panel left"></div>
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>
