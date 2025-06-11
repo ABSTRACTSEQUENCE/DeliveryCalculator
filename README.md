@@ -3,12 +3,12 @@ Users can either use it as a regular calculator by entering values manually, or 
 
 The system allows nesting: saved formulas can reference other properties or even other formulas, enabling creation of complex, layered calculations.
 
-Features implemented:
-✅ Basic UI
-✅ Core calculation logic
+<h2>Features implemented:</h2>
+✅ Basic UI <br>
+✅ Core calculation logic<br>
 
-Features in development:
-🔧 Saving custom formulas and properties
-🔧 Using formulas as variables inside other formulas
+<h2>Features in development:</h2>
+🔧 Saving custom formulas and properties<br>
+🔧 Using formulas as variables inside other formulas<br>
 
 > This is a work-in-progress project built to practice dynamic UI manipulation and logic-heavy frontend architecture using vanilla JavaScript.
